@@ -26,7 +26,7 @@ function factoresPrimos($n) {
   return $l;
 }
 
-//se queda con el mayor de los numeros primos
+//selecciona el mayor de los numeros primos
 echo "Respuesta del problema 3: ".end(factoresPrimos(600851475143))."\n";
 
 ?>
