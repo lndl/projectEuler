@@ -1,5 +1,7 @@
 <?php
 
+//Ejercicio 6
+
 //Calcula el cuadrado de un numero
 function square($x) {return $x*$x;}
 
