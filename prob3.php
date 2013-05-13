@@ -10,12 +10,12 @@ function mod($a, $b) {
 function factoresPrimos($n) {
   $x = $n;
   $i = 2;
-  $l = array();
+  $lpf;
   while ($x > 1) {
     //si es un factor primo...
     if (mod($x,$i) == 0) {
       //se registra y se descompone el numero por eso factor
-      $l[] = $i;
+      $lpf = $i;
       $x  /= $i;
     }
     else {
@@ -23,10 +23,10 @@ function factoresPrimos($n) {
     }
   }
 
-  return $l;
+  return $lpf;
 }
 
 //selecciona el mayor de los numeros primos
-echo "Respuesta del problema 3: ".end(factoresPrimos(600851475143))."\n";
+echo "Respuesta del problema 3: ".factoresPrimos(600851475143)."\n";
 
 ?>
