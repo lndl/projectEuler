@@ -1,4 +1,4 @@
-#### Name
+## Name
 Embedded HTML Component
 
 #### Description
