@@ -1,5 +1,4 @@
-## Name
-Embedded HTML Component
+## Embedded HTML Component
 
 #### Description
 Generates an arbitrary HTML tag.
