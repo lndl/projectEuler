@@ -1,7 +1,7 @@
-##### Name
+#### Name
 Embedded HTML Component
 
-##### Description
+#### Description
 Generates an arbitrary HTML tag.
 
 ###### Parameters
